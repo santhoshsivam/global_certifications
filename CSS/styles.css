@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+hr{
+	border: 2px solid black;
+}
+body{
+	margin: 0;
+	padding: 0;
+	}
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+.edu{
+	display: none;
+}
+.navbar-left{
+	display:none;
+}
+ul{
+	list-style-type: none;
+	float: right;
+}
+ul li{
+	display: block;
+}
+ul li a{
+	display:block;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 10px;
+}
+ul li a:hover{
+	text-decoration:none;
+}
+.navbar-left{
+	float: right; 
+	background-color: grey;
+	display: inline;
+	position:fixed;
+	top:25%;
+	right:5%; 
+	background-color: grey;
+	overflow: hidden;
+	z-index: 1;
+
+}
+.bcg{
+	height: 100vh;
+	width: 100%;
+	z-index: 1;
+}
+.bcg img{
+	position:fixed;
+	top: 0;
+	opacity: 0.2;
+}
+.navi{
+	position: sticky;
+	top:25%;
+}
+#bcg-in{
+	color: red;
+	position: absolute;
+	top:45%;
+	font-size:40px;
+	z-index: 2;
+
+}
+
+img{
+	overflow: none;
+}
+
+.top{
+	overflow: hidden;
+}
+table {
+	width: 100%;
+	float: left;
+}
+td{
+	width: 50%;
+}
+
+th{
+	padding: 30px;
+}
+.nav-stic{
+	display: none;
+}
+
+}
+@media only screen and (max-width: 700px) {
+
+#table1 table{
+	display: none;
+}
+.navbar-left{
+	display: none;
+}
+
+.nav-stic{
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+ overflow:hidden;
+ z-index: 1;
+}
+.navbar{
+ background-color: black;
+ overflow: hidden;
+}
+
+#bcg-in{
+	color: red;
+	position: absolute;
+	top:25%;
+	font-size:40px;
+	z-index: 2;
+
+}
+.bcg{
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+	height: 100vh;
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size:220vh 100vh;
+	z-index: 1;
+}
+
+td{
+	width: 50%;
+}
+}
