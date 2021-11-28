@@ -284,10 +284,24 @@ margin-bottom: 0;
 /* It is for the Contact page */
 .About-con-main{
     text-align: center;
-    padding: 20% 0;
+    padding: 12% 0;
     color: white;
-    background:rgba(56,255,255,0.5);
+    background:rgba(56,255,255,0.3);
 }
+.About-con-main a{
+    color: white;
+    font-size: 25px;
+}  
+
+.About-con-main h6{
+ color: white;
+ font-size: 25px;
+}  
+.About-con-main a:hover {
+ color: white;
+ text-decoration: none;
+}  
+
 .about-middle-con h3{
 padding: 10% 0 !important;
 }
@@ -840,7 +854,7 @@ margin-bottom: 60px;
        text-align: center;
        padding: 12% 0;
        color: white;
-       background:rgba(56,255,255,0.5);
+       background:rgba(56,255,255,0.3);
    }
    .About-con-main a{
        color: white;
